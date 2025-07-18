@@ -242,3 +242,96 @@ body {
      margin-left: 7.5em;
      margin-right: -0.2em;
 }
+/* service */
+
+.service__infor {
+     display: inline-flex;
+     padding-bottom: 7em;
+     justify-items: center;
+     align-items: center;
+     gap: 3.5em;
+     margin-left: 32em;
+     margin-top: 5em;
+     display: flex;
+}
+
+.service__option {
+     display: flex;
+     width: 47rem;
+     height: 12.8rem;
+     justify-content: center;
+     align-items: center;
+     flex-shrink: 0;
+     border-radius: 1rem;
+}
+.service__option:hover {
+     border-radius: 1rem;
+     background: #fff;
+     box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.05);
+     transition: 0.25s;
+}
+.service .container {
+     background: #fff;
+}
+.service__content {
+     margin-top: 3.5em;
+}
+.service__top {
+     justify-content: center;
+     padding-top: 7em;
+}
+.service__heading {
+     color: #10375c;
+     text-align: center;
+     font-family: Sora;
+     font-size: 5rem;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 6rem; /* 120% */
+     letter-spacing: -0.1rem;
+}
+.service__desc {
+     width: 46.8rem;
+     color: #575f66;
+     text-align: center;
+     margin-left: 19em;
+     font-family: Sora;
+     font-size: 1.8rem;
+     font-style: normal;
+     font-weight: 300;
+     line-height: 3rem; /* 166.667% */
+}
+
+.desc__option {
+     color: #575f66;
+     font-family: Sora;
+     font-size: 1.6rem;
+     font-style: normal;
+     font-weight: 300;
+     line-height: 2.8rem; /* 175% */
+}
+.service__btn--option {
+     width: 20.5rem;
+     height: 6rem;
+     flex-shrink: 0;
+     border: #2e80ce;
+     border-radius: 3rem;
+     background: #2e80ce;
+     color: #fff;
+     margin-top: 2.5em;
+     text-align: center;
+     font-family: Sora;
+     font-size: 1.8rem;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 3rem; /* 166.667% */
+}
+.service__image {
+     margin-left: -30em;
+     width: 57rem;
+     height: 57rem;
+
+     flex-shrink: 0;
+     border-radius: 1.2rem;
+     background: url(<path-to-image>) lightgray 0px -1.3px / 100% 149.93% no-repeat;
+}
