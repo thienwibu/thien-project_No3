@@ -250,7 +250,7 @@ body {
      justify-items: center;
      align-items: center;
      gap: 3.5em;
-     margin-left: 32em;
+     margin-left: 42em;
      margin-top: 5em;
      display: flex;
 }
@@ -272,6 +272,8 @@ body {
 }
 .service .container {
      background: #fff;
+     width: 144rem;
+     margin-left: -9em;
 }
 .service__content {
      margin-top: 3.5em;
@@ -334,4 +336,97 @@ body {
      flex-shrink: 0;
      border-radius: 1.2rem;
      background: url(<path-to-image>) lightgray 0px -1.3px / 100% 149.93% no-repeat;
+}
+/* how its work */
+.heding__work {
+     padding-top: 5em;
+     margin-left: 5em;
+}
+.section__heading {
+     color: #10375c;
+     font-family: Sora;
+
+     font-size: 5rem;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 6rem; /* 120% */
+     letter-spacing: -0.1rem;
+}
+.section__desc {
+     width: 46.8rem;
+     color: #575f66;
+     font-family: Sora;
+     margin-top: 1.8em;
+     font-size: 1.8rem;
+     font-style: normal;
+     font-weight: 300;
+     line-height: 3rem; /* 166.667% */
+}
+.work .container {
+     margin-left: -9em;
+     width: 144rem;
+     height: 86rem;
+     flex-shrink: 0;
+     background: #f6fbff;
+}
+.work__list {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     column-gap: 3em;
+     margin-left: 5.5em;
+     margin-top: 7em;
+}
+.work__items {
+     width: 33.8rem;
+     height: 40rem;
+     flex-shrink: 0;
+     border-radius: 0.4rem;
+     background: #fff;
+     transition: 0.25s;
+}
+.work__items:hover {
+     border-radius: 0.4rem;
+     width: 40rem;
+     height: 40.2rem;
+     flex-shrink: 0;
+     transform: translateY(-16px);
+}
+.img__work {
+     margin-top: 3em;
+     margin-left: 3em;
+}
+.heading__work {
+     color: #10375c;
+     font-family: Sora;
+     font-size: 2.6rem;
+     margin-left: 1.8em;
+     margin-top: 1em;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 3.6rem; /* 138.462% */
+}
+.desc__work {
+     font-family: Sora;
+     width: 25.4rem;
+     color: #575f66;
+     margin-left: 3em;
+     font-family: Sora;
+     margin-top: 1.8em;
+     font-size: 1.6rem;
+     font-style: normal;
+     font-weight: 300;
+     line-height: 2.8rem; /* 175% */
+}
+.button__work {
+     display: flex;
+     color: #2e80ce;
+     font-family: Sora;
+     text-decoration: none;
+     margin-left: 3em;
+
+     margin-top: 1.8em;
+     font-size: 1.6rem;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 2.8rem; /* 175% */
 }
