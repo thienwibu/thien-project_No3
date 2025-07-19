@@ -430,3 +430,245 @@ body {
      font-weight: 400;
      line-height: 2.8rem; /* 175% */
 }
+/* feature */
+.feature .feature__all {
+     display: flex;
+}
+.feature .container {
+     background: #fff;
+     width: 1440px;
+     height: 1000px;
+     margin-left: -144px;
+}
+.feature {
+     margin-top: -100px;
+
+     padding: 85px 0;
+}
+.feature__media {
+     width: 48%;
+}
+.feature__images {
+     position: relative;
+     margin-top: 15em;
+     margin-left: 7em;
+     padding-bottom: 121px;
+}
+.feature-content {
+     margin-left: 180px;
+}
+.feature__img {
+     width: 51.2rem;
+     height: 37rem;
+     flex-shrink: 0;
+     object-fit: cover;
+     border-radius: 0.6rem;
+}
+.feature__img:last-child {
+     position: absolute;
+     margin-left: -230px;
+     margin-top: 120px;
+     width: 33.2rem;
+     height: 37rem;
+     flex-shrink: 0;
+}
+.feature__heading {
+     color: #10375c;
+     font-family: Sora;
+     margin-top: 6.5em;
+     width: 47rem;
+     font-size: 5rem;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 6rem; /* 120% */
+     letter-spacing: -0.1rem;
+}
+.desc__feature {
+     color: #575f66;
+     font-family: Sora;
+     width: 46.8rem;
+     margin-top: 0.5em;
+     font-size: 1.8rem;
+     font-style: normal;
+     font-weight: 300;
+     line-height: 3rem; /* 166.667% */
+}
+.btn__feature {
+     color: #fff;
+     text-align: center;
+     font-family: Sora;
+     border-radius: 3rem;
+
+     margin-top: 2em;
+     width: 20.5rem;
+     padding-top: 15px;
+     height: 6rem;
+     flex-shrink: 0;
+     background: #2e80ce;
+     font-size: 1.8rem;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 3rem; /* 166.667% */
+}
+.btn__feature a {
+     text-decoration: none;
+     color: #fff;
+}
+/* member */
+.member {
+     text-align: center;
+}
+.member__top {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+.member__heading {
+     color: #10375c;
+     text-align: center;
+     font-family: Sora;
+     font-size: 5rem;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 6rem; /* 120% */
+     letter-spacing: -0.1rem;
+}
+.button__member {
+     color: #fff;
+     width: 20.5rem;
+     height: 6rem;
+     flex-shrink: 0;
+     border-radius: 3rem;
+     background: #2e80ce;
+
+     text-decoration: none;
+     margin-top: 38px;
+     padding-top: 15px;
+     text-align: center;
+     font-family: Sora;
+     font-size: 1.8rem;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 3rem; /* 166.667% */
+}
+.infor__member {
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     column-gap: 30px;
+     margin-left: 50px;
+     margin-top: 70px;
+}
+.member-item {
+     width: 27rem;
+     padding-top: 28px;
+     height: 29rem;
+     margin-top: 28px;
+     flex-shrink: 0;
+     border-radius: 0.6rem;
+     background: url(<path-to-image>) #eaf6ff -153.123px -52.895px / 208.148%
+          188.038% no-repeat;
+     transition: 0.25s;
+}
+.member-item__img-pg {
+     width: 27rem;
+     height: 31.8rem;
+     overflow: hidden;
+     flex-shrink: 0;
+     border-radius: 0.6rem;
+     background: #eaf6ff;
+}
+.member-item__thumb {
+     object-fit: cover;
+}
+.member-item:hover {
+     transform: scale(1.1);
+}
+.member-item__name {
+     color: #10375c;
+     margin-top: 12px;
+     text-align: center;
+     font-family: Sora;
+     font-size: 1.6rem;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 2.8rem; /* 175% */
+}
+.member-item__desc {
+     color: #575f66;
+     text-align: center;
+     font-family: Sora;
+     text-align: center;
+     font-size: 1.4rem;
+     font-style: normal;
+     font-weight: 300;
+     line-height: 2.6rem; /* 185.714% */
+}
+.logo {
+     margin-top: 180px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.icon__member:hover {
+     fill: #2e80ce;
+}
+/* install */
+.install__iner {
+     display: flex;
+}
+.all__install {
+     width: 144rem;
+     background: #fff;
+     margin-left: -144px;
+     height: 50rem;
+}
+.img__install {
+     margin-top: -95px;
+     margin-left: 70px;
+}
+.install__content {
+     margin-left: 160px;
+}
+.install .container {
+     border-radius: 0.4rem;
+     background: #2e80ce;
+     margin-left: 140px;
+
+     width: 117rem;
+     height: 42.7rem;
+     flex-shrink: 0;
+}
+.install__heading {
+     margin-top: 76px;
+     color: #fff;
+     font-family: Sora;
+     font-size: 5rem;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 6rem; /* 120% */
+     letter-spacing: -0.1rem;
+     width: 48.9rem;
+}
+.install__desc {
+     color: #fff;
+     font-family: Sora;
+     margin-top: 18px;
+     font-size: 1.8rem;
+     font-style: normal;
+     font-weight: 300;
+     line-height: 3rem; /* 166.667% */
+     width: 58.6rem;
+}
+.button__install {
+     width: 12rem;
+     height: 4rem;
+     margin-top: 38px;
+     flex-shrink: 0;
+     stroke-width: 1px;
+     background: #2e80ce;
+}
+.btn__install {
+     background: #2e80ce;
+     border: none;
+}
