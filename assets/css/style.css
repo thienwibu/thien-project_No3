@@ -40,7 +40,7 @@ body {
      min-width: calc(100% - 48);
      margin: 0 auto;
 }
-.logo {
+.logo__header {
      display: flex;
      position: relative;
      font-size: 1em;
@@ -98,7 +98,6 @@ body {
 .header-top {
      display: flex;
 
-     align-items: center;
      justify-content: space-between;
 }
 .navbar__link {
@@ -664,9 +663,13 @@ body {
      width: 12rem;
      height: 4rem;
      margin-top: 38px;
+
      flex-shrink: 0;
      stroke-width: 1px;
      background: #2e80ce;
+}
+.button__install:nth-child(2) {
+     margin-left: 30px;
 }
 .btn__install {
      background: #2e80ce;
