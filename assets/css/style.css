@@ -675,3 +675,109 @@ body {
      background: #2e80ce;
      border: none;
 }
+/* news */
+.news .container {
+     height: 650px;
+}
+.all__news {
+     padding-top: 85px;
+     /* padding-bottom: 85px; */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-left: -385px;
+}
+.information__news {
+     width: 47rem;
+     height: 24rem;
+     flex-shrink: 0;
+}
+.news__infor {
+     width: 305px;
+     height: 205px;
+     display: flex;
+}
+.header__news {
+     color: #10375c;
+     font-family: Sora;
+     margin-top: 68px;
+     margin-bottom: 28px;
+     width: 47rem;
+     font-size: 5rem;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 6rem; /* 120% */
+     letter-spacing: -0.1rem;
+}
+.read__news {
+     color: #10375c;
+     font-family: Inter;
+
+     font-size: 1.8rem;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 2.8rem; /* 155.556% */
+     text-decoration-line: underline;
+     text-decoration-style: solid;
+     text-decoration-skip-ink: none;
+     text-decoration-thickness: auto;
+     text-underline-offset: 2px;
+     text-underline-position: from-font;
+}
+
+.btn__news {
+     width: 9rem;
+     height: 3.6rem;
+     flex-shrink: 0;
+     /* margin-top: 50px; */
+     margin-top: 28px;
+     margin-left: -3px;
+     background: #ffffff;
+     border: none;
+}
+.news__right {
+     width: 27rem;
+     height: 37.5rem;
+     margin-left: 130px;
+     flex-shrink: 0;
+     border-radius: 1.2rem;
+     border: 1px solid #e8ebee;
+     background: #fff;
+}
+.news__right:nth-child(2) {
+     margin-left: 30px;
+}
+.new__heading {
+     color: #10375c;
+     font-family: Sora;
+     margin-left: 22px;
+     margin-top: 18px;
+     width: 22.4rem;
+     font-size: 1.6rem;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 2.6rem; /* 162.5% */
+}
+.desc__news {
+     color: #575f66;
+     font-family: Sora;
+
+     margin-left: 22px;
+     margin-bottom: 12px;
+     margin-top: 10px;
+     font-size: 1.4rem;
+     font-style: normal;
+     width: 22.6rem;
+     font-weight: 300;
+     line-height: 2.4rem; /* 171.429% */
+}
+.new__cta {
+     color: #2e80ce;
+     font-family: Sora;
+     font-size: 1.4rem;
+     margin-left: 22px;
+
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+}
