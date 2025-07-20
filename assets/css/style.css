@@ -621,6 +621,12 @@ body {
      background: #fff;
      margin-left: -144px;
      height: 50rem;
+     display: flex;
+
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 17rem;
 }
 .img__install {
      margin-top: -95px;
@@ -678,6 +684,13 @@ body {
 /* news */
 .news .container {
      height: 650px;
+     display: flex;
+     width: 144rem;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     height: 44rem;
+     gap: 17rem;
 }
 .all__news {
      padding-top: 85px;
@@ -780,4 +793,177 @@ body {
      font-style: normal;
      font-weight: 400;
      line-height: normal;
+}
+/* apoointment */
+.appointment .container {
+     display: flex;
+     display: flex;
+
+     width: 144rem;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 17rem;
+     height: 800px;
+}
+.appointment__all {
+     width: 117rem;
+     height: 45.2rem;
+     margin-top: 170px;
+     padding-bottom: 170px;
+     flex-shrink: 0;
+     background: #f6fbff;
+}
+.appointment__header {
+     color: #10375c;
+     text-align: center;
+     margin-top: 100px;
+     margin-left: -350px;
+     font-family: Sora;
+     font-size: 5rem;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 6rem; /* 120% */
+     letter-spacing: -0.1rem;
+}
+.appointment__header::after {
+     content: "";
+     display: inline-block;
+     margin-bottom: -36px;
+     margin-left: -460px;
+     width: 13.6rem;
+     height: 0.2rem;
+     flex-shrink: 0;
+     background: #2e80ce;
+}
+.desc__appoinment {
+     color: #575f66;
+     text-align: center;
+     margin-top: 38px;
+     font-size: 1.6rem;
+     margin-left: 270px;
+     font-style: normal;
+     font-weight: 300;
+     width: 61.7rem;
+     line-height: 2.8rem; /* 175% */
+}
+.btn__appointment {
+     color: #fff;
+     text-align: center;
+     font-family: Sora;
+     font-size: 1.8rem;
+     margin-top: 38px;
+     font-style: normal;
+     margin-left: 480px;
+     font-weight: 400;
+     line-height: 3rem; /* 166.667% */
+     width: 20.5rem;
+     height: 6rem;
+     flex-shrink: 0;
+     border-radius: 3rem;
+     border: none;
+     background: #2e80ce;
+}
+/* footer */
+.footer .container {
+     width: 144rem;
+     height: 55.3rem;
+     flex-shrink: 0;
+     background: #10375c;
+}
+.footer__row {
+     display: grid;
+     grid-template-columns: 1fr 0.4fr 0.4fr 1fr;
+     column-gap: 78px;
+     padding-top: 100px;
+     margin-left: 100px;
+}
+.desc__footer {
+     color: #a9b3bb;
+     font-family: "Open Sans";
+     margin-top: 20px;
+     font-size: 1.6rem;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 2.8rem; /* 175% */
+}
+.footer__heading {
+     color: #fff;
+     font-family: "Open Sans";
+     font-size: 1.6rem;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 2.8rem; /* 175% */
+}
+.footer__link {
+     display: block;
+     color: #a9b3bb;
+     margin-top: 20px;
+     font-family: "Open Sans";
+     font-size: 1.4rem;
+     font-style: normal;
+     text-decoration: none;
+     font-weight: 400;
+     line-height: 2.6rem; /* 185.714% */
+}
+.footer__desc {
+     color: #a9b3bb;
+     font-family: "Open Sans";
+     margin-top: 20px;
+     font-size: 1.4rem;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 2.6rem; /* 185.714% */
+     width: 27.3rem;
+}
+.action1 {
+     display: flex;
+     width: 15rem;
+     height: 4.6rem;
+
+     flex-shrink: 0;
+     margin-top: 30px;
+     border: 1px solid #406181;
+}
+.footer__submit {
+     font-family: "Open Sans";
+     font-size: 1.4rem;
+     font-style: normal;
+     color: #fff;
+     font-weight: 600;
+     line-height: 2.6rem; /* 185.714% */
+     width: 10.8rem;
+     height: 4.6rem;
+     flex-shrink: 0;
+     border-radius: 0.4rem;
+     background: #2e80ce;
+     border: none;
+
+     margin-left: 12px;
+}
+.footer__social--button img {
+     margin-top: 28px;
+}
+.footer__heading1 {
+     margin-top: 28px;
+}
+.footer__row::after {
+     content: "";
+}
+.desc__footer__copyright {
+     color: #aab3ba;
+     text-align: center;
+     font-family: "Open Sans";
+     font-size: 1.4rem;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 2.6rem; /* 185.714% */
+     margin-left: 150px;
+     margin-top: 28px;
+     width: 300px;
+     height: 26px;
+     width: 117rem;
+     height: 0.1rem;
+     flex-shrink: 0;
+     background: #406181;
 }
